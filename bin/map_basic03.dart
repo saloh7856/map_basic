@@ -2,14 +2,14 @@
   
 
 */
-bool func(Map <int,String>dct){
-  if(0<dct.length){
+bool func(Map dct) {
+  Map data = {1: 'amaki', 2: 'uka', 3: 'aka'};
+  if (data.length < 0) {
     return true;
-  }
-  return false;
+  } else
+    return false;
 }
 
-void main(){
-
-  print(func({2:'Ozodbek',5:'Salohiddin'}));
+void main() {
+  print(func({3: 'bobo'}));
 }
